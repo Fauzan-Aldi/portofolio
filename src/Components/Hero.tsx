@@ -19,7 +19,7 @@ function Hero() {
               <a className=" text-black dark:text-white text-3xl ">
                 Hy, My Name Is ...🙌{" "}
                 <span className=" text-5xl block font-bold my-5">
-                  Shafiq
+                  Fauzan Aldi
                 </span>{" "}
                 I'm{" "}
                 <span className="text-secondary text-2xl">
