@@ -5,9 +5,11 @@ function About() {
   return (
     <>
       <section id="About" className="bg-gray-100 py-10">
-        <div className="container mx-auto h-screen">
-        <h1 className="text-2xl font-bold text-center mb-4">About</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="container mx-auto h-screen mt-10 md:mt-0">
+          <h1 className="text-2xl font-bold text-center mb-4 hidden md:block">About</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
+        <h1 className="text-2xl font-bold text-center mb-4 w-full absolute md:block top-0 md:hidden">About</h1>
+        
             {/* Image Section with Animation */}
             <div className="flex justify-center items-center relative">
               {/* Motion Div */}
@@ -24,7 +26,7 @@ function About() {
                   repeat: Infinity,
                   repeatDelay: 0.5,
                 }}
-                className="bg-primary h-96 w-96 flex justify-center items-center rounded-full absolute transition ease-in-out duration-300"
+                className="bg-primary size-40 md:size-96 flex justify-center items-center rounded-full absolute bottom-5 md:bottom-0 transition ease-in-out duration-300"
               ></motion.div>
               <motion.img
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -36,7 +38,7 @@ function About() {
                   }}
                   src={profile}
                   alt="Image Inside Circle"
-                  className="h-[460px] object-cover absolute"
+                  className="h-44 md:h-full object-cover bottom-5 md:bottom-0 absolute"
                 />
             </div>
 

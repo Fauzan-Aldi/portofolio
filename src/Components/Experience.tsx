@@ -1,7 +1,7 @@
 function Experience() {
     return (
         <>
-            <section id="Experience" className="py-8 bg-gray-50">
+            <section id="Experience" className="py-8 bg-gray-50 mt-72 md:mt-0">
                 <div className="container mx-auto">
                     <h1 className="text-2xl font-bold text-center mb-4">Experiences</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

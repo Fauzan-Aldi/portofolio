@@ -43,10 +43,10 @@ function Navbar() {
                             <a href="https://www.instagram.com/fauzanaldi_0a/?hl=en" target='_blank' className="font-bold text-2xl sm:text-3xl text flex gap-2">
                             <img src={logo} alt="Logo" className="size-6 object-cover dark:bg-white dark:rounded-full " />
                         </a>
-                        <a href="#" className="font-bold text-2xl sm:text-3xl text flex gap-2">
+                        <a href="https://www.linkedin.com/in/fauzan-aldi/" target='_blank' className="font-bold text-2xl sm:text-3xl text flex gap-2">
                             <img src={logoLinkedin} alt="Logo" className="size-6 dark:bg-white dark:rounded-full " />
                         </a>
-                        <a href="#" className="font-bold text-2xl sm:text-3xl text flex gap-2">
+                        <a href="https://github.com/Fauzan-Aldi" target='_blank' className="font-bold text-2xl sm:text-3xl text flex gap-2">
                             <img src={logogithub} alt="Logo" className="size-6 object-cover dark:bg-white dark:rounded-full " />
                         </a>
                         <a href="https://www.tiktok.com/@aldi.pentest" target='_blank' className="font-bold text-2xl sm:text-3xl text flex gap-2">
