@@ -6,8 +6,8 @@ function About() {
     <>
       <section id="About" className="bg-gray-100 py-10 -translate-y-40 md:-translate-y-0">
         <div className="container mx-auto h-max py-1 md:h-screen mt-10 md:mt-0">
-          <h1 className="text-2xl font-bold text-center mb-4">About</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
+          <h1 className="text-2xl  hidden md:block font-bold text-center mb-4 ">About</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative ">
         <h1 className="text-2xl font-bold text-center mb-1 w-full absolute md:block top-0 md:hidden">About</h1>
         
             {/* Image Section with Animation */}
