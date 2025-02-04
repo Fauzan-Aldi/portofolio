@@ -5,10 +5,10 @@ function About() {
   return (
     <>
       <section id="About" className="bg-gray-100 py-10 -translate-y-40 md:-translate-y-0">
-        <div className="container mx-auto h-max py-2 md:h-screen mt-10 md:mt-0">
-          <h1 className="text-2xl font-bold text-center mb-4 hidden md:block">About</h1>
+        <div className="container mx-auto h-max py-1 md:h-screen mt-10 md:mt-0">
+          <h1 className="text-2xl font-bold text-center mb-4">About</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
-        <h1 className="text-2xl font-bold text-center mb-4 w-full absolute md:block top-0 md:hidden">About</h1>
+        <h1 className="text-2xl font-bold text-center mb-1 w-full absolute md:block top-0 md:hidden">About</h1>
         
             {/* Image Section with Animation */}
             <div className="flex justify-center items-center relative">
@@ -44,7 +44,7 @@ function About() {
 
             {/* Text Section */}
             <div className="text-gray-900">
-              <h1 className="text-xl text-center md:text-2xl md:text-start font-bold m-4">
+              <h1 className="text-x1 text-center md:text-2xl md:text-start font-bold ">
                 Penetration Tester & Bug Hunter
               </h1>
               <p className="text-[16px] text-justify leading-relaxed mb-4">
