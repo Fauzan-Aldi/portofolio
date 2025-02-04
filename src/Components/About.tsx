@@ -4,8 +4,8 @@ import profile from "../assets/aldi.png";
 function About() {
   return (
     <>
-      <section id="About" className="bg-gray-100 py-10">
-        <div className="container mx-auto h-screen mt-10 -translate-y-40 md:-translate-y-0 md:mt-0">
+      <section id="About" className="bg-gray-100 py-10 -translate-y-40 md:-translate-y-0">
+        <div className="container mx-auto h-max py-2 md:h-screen mt-10 md:mt-0">
           <h1 className="text-2xl font-bold text-center mb-4 hidden md:block">About</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
         <h1 className="text-2xl font-bold text-center mb-4 w-full absolute md:block top-0 md:hidden">About</h1>
@@ -44,7 +44,7 @@ function About() {
 
             {/* Text Section */}
             <div className="text-gray-900">
-              <h1 className="text-2xl font-bold mb-4">
+              <h1 className="text-xl text-center md:text-2xl md:text-start font-bold m-4">
                 Penetration Tester & Bug Hunter
               </h1>
               <p className="text-[16px] text-justify leading-relaxed mb-4">
