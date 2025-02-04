@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <section id="About" className="bg-gray-100 py-10">
-        <div className="container mx-auto h-screen mt-10 md:mt-0">
+        <div className="container mx-auto h-screen mt-10 -translate-y-40 md:-translate-y-0 md:mt-0">
           <h1 className="text-2xl font-bold text-center mb-4 hidden md:block">About</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
         <h1 className="text-2xl font-bold text-center mb-4 w-full absolute md:block top-0 md:hidden">About</h1>
@@ -16,7 +16,7 @@ function About() {
               <motion.div
                 animate={{
                   scaleX: [1, 0.5, 0.8, 1.2, 1],
-                  scaleY: [1, 0.8, 2.5, 0.9, 1],
+                  scaleY: [1, 1, 2.5, 1, 1],
                   rotate: [0, 45, 90, -45, 0],
                 }}
                 transition={{
