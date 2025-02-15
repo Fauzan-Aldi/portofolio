@@ -17,7 +17,7 @@ function About() {
                 animate={{
                   scaleX: [1, 0.5, 0.8, 1.2, 1],
                   scaleY: [1, 1, 2.5, 1, 1],
-                  rotate: [0, 45, 90, -45, 0],
+                  rotate: [0, 40, 40, -45, 0],
                 }}
                 transition={{
                   duration: 3,

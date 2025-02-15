@@ -86,7 +86,7 @@ const certificates = [
 
 function Certificate() {
     return (
-        <section id="Certificate" className="py-8 bg-gray-50 mt-72 md:mt-0 -translate-y-[50rem] md:-translate-y-0">
+        <section id="Certificate" className="py-8 bg-gray-50 mt-76 md:mt-0 -translate-y-[31rem]">
             <div className="container mx-auto px-15">
                 <h1 className="text-2xl font-bold text-center mb-4">Certificates</h1>
                 <div className="flex justify-center space-x-2 md:space-x-6 mb-6">
